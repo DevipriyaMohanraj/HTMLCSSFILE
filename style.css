@@ -1,0 +1,56 @@
+/* Remove Browser styles */
+*  {
+    margin: 0 ;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img  {
+    width: 75%;
+    height: 80%;
+}
+
+header{
+    min-height: 100vh;
+    background: url(/websitepic.PNG);
+    background-image: url(websitepic.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.header-content {
+    width:50%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration-color:yellow;
+}
+
+.logo {
+    height:150px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.horizontal-text {
+    margin-left: 10px;
+}
+.nav-links {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration-color: black;
+
+}
